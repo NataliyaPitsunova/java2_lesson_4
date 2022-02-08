@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         //Cделать добавление и удаление из односвязного списка по индексу
         OwnLinkedList<Integer> integLL = new OwnLinkedList<>();
-
         integLL.addNodeIndx(555, 0); //метод "добавление по индексу"
         integLL.addNodeIndx(444, 1);
         integLL.addNodeIndx(666, 2);
