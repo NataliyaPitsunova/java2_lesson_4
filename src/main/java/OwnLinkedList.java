@@ -10,7 +10,7 @@ public class OwnLinkedList<T> {
         this.head = null;
     }
 
-   /* public void addNode(T data) {     //метод преподавателя
+    public void addNode(T data) {     //метод преподавателя
         Node newNode = new Node(data);
         if (head == null) {
             head = newNode;
@@ -20,7 +20,7 @@ public class OwnLinkedList<T> {
         }
         tails = newNode;
         size++;
-    }*/
+    }
 
     public void addNodeIndx(T data, int index) {
         Node newNode = new Node(data); //если список пуст хотим добавить первый элемент
